@@ -1,18 +1,18 @@
-# Project Error Reproduction Guide
+# Webpack Draco Loader Error Reproduction Guide
 
-This guide provides steps to reproduce an error in the project. Follow these instructions to identify and diagnose any issues encountered during the development or build process.
+This guide provides steps to reproduce the webpack draco loader error in the project. Follow these instructions to identify and diagnose any issues encountered during the development or build process.
 
 ## Steps to Reproduce Error
 
 1. **Clone the Repository**
     ```bash
-    git clone [repository_url]
+    git clone https://github.com/Anish-Someashwara/Webpack-Draco-Test.git
     ```
-    Replace `[repository_url]` with the URL of the repository.
+    
 
 2. **Install Dependencies**
     ```bash
-    cd [repository_directory]
+    cd Webpack-Draco-Test
     npm install
     ```
     Navigate into the cloned repository directory and install project dependencies using npm.
@@ -34,7 +34,7 @@ This guide provides steps to reproduce an error in the project. Follow these ins
     - Open the `index.html` file in your web browser.
 
 6. **Inspect for Errors**
-    - Open the developer console in your web browser to inspect for any errors.
+    - Open the developer console in your web browser to inspect for draco-worker error.
     - Look for any error messages or warnings that might appear related to the application functionality.
 
 By following these steps, you should be able to reproduce the error and examine any error messages or warnings in the developer console. This will help in diagnosing and resolving any issues encountered during the development or build process.
