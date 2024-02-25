@@ -1,0 +1,42 @@
+{
+  "name": "threejs-starter",
+  "version": "1.0.0",
+  "description": "*Get started with Three.js to render 3d Web Experience*",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack-dev-server --config ./bundler/webpack.dev.js"
+  },
+  
+  "keywords": [],
+  "author": "Mohnish Landge",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "glslify-loader": "^2.0.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "javascript-obfuscator": "^4.1.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.4",
+    "three": "^0.161.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2",
+    "webpack-merge": "^5.10.0",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "postcss-loader": "^8.1.0",
+    "sass": "^1.71.1"
+  }
+}
